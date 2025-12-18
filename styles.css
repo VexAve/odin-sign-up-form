@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Norse Bold";
+    src: url("./fonts/norse-bold.otf");
+}
+
 body {
     margin: 0;
     display: flex;
@@ -31,7 +36,8 @@ body {
 }
 
 #odin-text {
-    font-size: 10vh;
+    font-family: "Norse Bold", sans-serif;
+    font-size: 15vh;
     color: whitesmoke
 }
 
