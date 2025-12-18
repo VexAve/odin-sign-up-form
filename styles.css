@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    display: flex;
+}
+
+#image-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#leaves {
+    width: 40vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#odin-banner {
+    background-color: #00000099;
+    width: 40vw;
+    height: 20%;
+    position: absolute;
+    top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#odin-lined {
+    height: 80%;
+}
+
+#odin-text {
+    font-size: 10vh;
+    color: whitesmoke
+}
+
+#credit {
+    position: absolute;
+    color: whitesmoke;
+}
+
+#credit a {
+    color: lightgray;
+}
